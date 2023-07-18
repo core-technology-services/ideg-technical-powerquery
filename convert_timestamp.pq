@@ -11,7 +11,7 @@ let
     parsedTimestamp = Number.FromText(timestamp),
 
     timeOffset = 
-        if parsedTimestamp > 1000000000
+        if parsedTimestamp > 100000000000
         then parsedTimestamp / 1000
         else parsedTimestamp,
 
